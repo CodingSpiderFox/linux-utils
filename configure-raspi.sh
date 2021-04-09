@@ -10,4 +10,11 @@ sudo apt install -y unattended-upgrades python3-pip tree curl net-tools bridge-u
 
 sudo pip3 install docker-compose
 
+git clone https://github.com/codingspiderfox/linux-devenv
+cd linux-devenv
+sudo ./install-ohmyzsh.sh
+cd -
+
+sudo chown -R pi:pi /home/pi
+
 sudo reboot
