@@ -17,4 +17,7 @@ cd -
 
 sudo chown -R pi:pi /home/pi
 
+sudo cp etc/apt/apt.conf.d/* /etc/apt/apt.conf.d/
+sudo dpkg-reconfigure --priority=low unattended-upgrades
+
 sudo reboot
