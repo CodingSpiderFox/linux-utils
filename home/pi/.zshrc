@@ -70,7 +70,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Aliases
 alias branchname="git branch | sed -n -e 's/^\* \(.*\)/\1/p'"
-alias ug="sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y&"
+alias ug="sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y&; sudo snap refresh; sudo flatpak update"
 alias ideau="if [ ! -f '/snap/bin/intellij-idea-ultimate' ]; then echo echo 'Installing IDEA Ultimate' snap install intellij-idea-ultimate --classic fi intellij-idea-ultimate"
 alias backuphome="zip -r backup.zip \.* -x \*.wine\*"
 alias gapac="git add -p && git commit"
