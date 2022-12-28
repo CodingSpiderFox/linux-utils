@@ -22,3 +22,4 @@ Unattended-Upgrade::Origins-Pattern {
 
 Unattended-Upgrade::Automatic-Reboot "true";
 Unattended-Upgrade::Automatic-Reboot-WithUsers "true";
+Unattended-Upgrade::Automatic-Reboot-Time "05:00";
