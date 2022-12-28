@@ -21,3 +21,4 @@ Unattended-Upgrade::Origins-Pattern {
 };
 
 Unattended-Upgrade::Automatic-Reboot "true";
+Unattended-Upgrade::Automatic-Reboot-WithUsers "true";
